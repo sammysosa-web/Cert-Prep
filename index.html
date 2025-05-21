@@ -6,56 +6,226 @@
    <meta name="keyword"content="HTML,CSS,Certiport exam">
    <meta name="author"content="Samantha P">
    <meta name="viewpoint"content="width=device-width, initial-scale=1.0">
-   <title> samantha p Practice Cert </title>
+   <title> Samantha Payero Practice Cert </title>
     <link rel="icon" type ="image/png" href="avatar.png"
+    alt="Samantha Payero Favicon">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <style>
+        /* Basic reset and body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink;
+        }
+
+        /* Header and navigation styling */
+        header {
+            background-color:palevioletred;
+            padding: 1rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-evenly; /* Align items evenly */
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: rgb(236, 13, 13);
+        }
+
+        /* Dropdown container */
+        .dropdown {
+            position: relative;
+        }
+
+        .dropbtn {
+            font-size: 16px;
+            color: rgba(230, 237, 98, 0.642);
+            padding: 14px 20px;
+            background-color: #f2a0a0;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #e1a7a7;
+            min-width: 160px;
+            z-index: 1;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+            color: rgb(214, 139, 139);
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Main content styling */
+        main {
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+        }
+
+        /* Make the layout responsive */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .dropdown-content {
+                width: 100%;
+            }
+
+            .dropbtn {
+                width: 100%;
+                text-align: left;
+            }
+
+            nav a {
+                padding: 12px 18px;
+            }
+        }
+    </style>
   </head>
   <body>
-    <nav>
-      <a href="Domain 1/MusicStore1/11a-scripts.html"> Domain 1</a>
-      <a href="Domain 1/MusicStore1/index.html"> Domain 1 Index</a>
-      <a href="Domain 2/MusicStore2/21a-index.html"> Domain 2</a>
-      <a href="Domain 2/MusicStore2/21b-books.html"> Music Books</a>
-      <a href="Domain 2/MusicStore2/21b-index.html">Domain 2 Index</a>
-      <a href="Domain 2/MusicStore2/22a-index.html">Domain 2 Index</a>
-      <a href="Domain 2/MusicStore2/22b-books.html"> Domain 2 22b</a>
-      <a href="Domain 2/MusicStore2/22b2-spotlight.html">Spotlight</a>
-      <a href="Domain 2/MusicStore2/22b3-books.html">books 22b3</a>
-      <a href="Domain 3/MusicStore3/31a-hours.html"> Domain 3</a>
-      <a href="Domain 3/MusicStore3/31a-hours2.html"> Domain h2</a>
-      <a href="Domain 3/MusicStore3/31b-index.html"> Domain index 3</a>
-      <a href="Domain 3/MusicStore3/31e-index.html"> Domain index 3</a>
-      <a href="Domain 3/MusicStore3/31h-index.html"> Domain index 3</a>
-      <a href="Domain 3/MusicStore3/32a-spotlight.html"> Spotlight 3</a>
-      <a href="Domain 3/MusicStore3/32g-spotlight.html"> Spotlight 3</a>
-      <a href="Domain 3/MusicStore3/32i-spotlight.html"> Spotlight 3</a>
-      <a href="Domain 3/MusicStore3/32j-hours2.html"> Domain h3</a>
-      <a href="Domain 3/MusicStore3/33a-books.html"> books 3</a>
-      <a href="Domain 3/MusicStore3/33b-index.html"> Index 3</a>
-      <a href="Domain 3/MusicStore3/33b-spotlight.html"> Spotlight 3</a>
-      <a href="Domain 3/MusicStore3/33c-books.html"> Books index 3 </a>
-      <a href="Domain 3/MusicStore3/33d-spotlight.html"> Spotlight 3</a>
-      <a href="Domain 3/MusicStore3/33e-spotlight.html"> spotlight 3 </a>
-      <a href="Domain 3/MusicStore3/33e-links.html">Links</a>
-      <a href="Domain 3/MusicStore3/books2.html"> books 3</a>
-      <a href="Domain 3/MusicStore3/books3"> books 3</a>
-      <a href="Domain 3/MusicStore3/34d-contactus.html"> contactus</a>
-      <a href="Domain 3/MusicStore3/34e-contactus.html"> contactus</a>
-      <a href="Domain 3/MusicStore3/34f-contactus.html"> contactus</a>
-      <a href="Domain 3/MusicStore3/34g-contactus.html"> contactus</a>
-      <a href="Domain 3/MusicStore3/34h-contactus.html"> contactus</a>
-      <a href="Domain 3/MusicStore3/34i-contactus.html"> contactus</a>
-      <a href="Domain 3/MusicStore3/34j-contactus.html"> contactus</a>
-      <a href="Domain 4/Student/MusicStore4/41a-instruments.html"> Instruments</a>
-      <a href="Domain 4/Student/MusicStore4/41a-instruments2.html"> Instruments 2</a>
-      <a href="Domain 4/Student/MusicStore4/43a-media.html"> Media </a>
-      <a href="Domain 4/Student/MusicStore4/43b-media.html"> Media 2</a>
-      <a href="Domain 4/Student/MusicStore4/43e-media.html"> media 3</a>
-      <a href="Domain 4/Student/MusicStore4/vtt.html"> Vtt</a>
-      <a href="Domain 4/Student/MusicStore4/41a-instruments.html">Domain 4</a>
-      <a href="Domain 5/MusicStore5/51a-positioningexample.html">Domain 5</a>
-      <a href ="Domain 6/23a-main.css">Domain 6</a>
-    </nav>
-    <h1> Samantha p Cert prep </h1>
-    <p> i remeber how to use hyper links and to not copy and paste </p>
-  </body>
+    <header>
+      <nav>
+      <a href="index.html">Home</a>
+      <!-- Domain 1 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 1</button>
+                <div class="dropdown-content">
+                    <a href="Domain 1/MusicStore1/11a-scripts.html">11a-scripts</a>
+                    <a href="Domain 1/MusicStore1/11c-scripts.html">11c-scripts</a>
+                </div>
+            </div>
+
+      <!-- Domain 2 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 2</button>
+                <div class="dropdown-content">
+                    <a href="Domain 2/MusicStore2/21a-index.html">21a-index</a>
+                    <a href="Domain 2/MusicStore2/21b-books.html">21b-books</a>
+                    <a href="Domain 2/MusicStore2/21b-index.html">21b-index</a>
+                    <a href="Domain 2/MusicStore2/22a-index.html">22a-index</a>
+                    <a href="Domain 2/MusicStore2/22b-books.html">22b-books</a>
+                    <a href="Domain 2/MusicStore2/22b2-spotlight.html">22b2-spotlight</a>
+                     <a href="Domain 2/MusicStore2/22b3-books.html">22b3-books</a>
+                     
+                </div>
+            </div>
+      
+       <!-- Domain 3 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 3</button>
+                <div class="dropdown-content">
+                    <a href="Domain 3/MusicStore3/31a-hours.html">31a-hours</a>
+                    <a href="Domain 3/MusicStore3/31a-hours2.html">31a-hours2</a>
+                    <a href="Domain 3/MusicStore3/31b-headings.html">31b-headings</a>
+                    <a href="Domain 3/MusicStore3/31b-index.html">31b-index</a>
+                    <a href="Domain 3/MusicStore3/31e-index.html">31e-index</a>
+                    <a href="Domain 3/MusicStore3/31h-index.html">31h-index</a>
+                    <a href="Domain 3/MusicStore3/32a-spotlight.html">32a-spotlight</a>
+                    <a href="Domain 3/MusicStore3/32g-books.html">32g-books</a>
+                    <a href="Domain 3/MusicStore3/32g-spotlight.html"> Spotlight 3</a>
+                    <a href="Domain 3/MusicStore3/32i-spotlight.html">32i-spotlight</a>
+                    <a href="Domain 3/MusicStore3/32j-hours2.html">32j-hours2</a>
+                    <a href="Domain 3/MusicStore3/33a-books.html">33a-books</a>
+                    <a href="Domain 3/MusicStore3/33b-index.html">33b-index</a>
+                    <a href="Domain 3/MusicStore3/33b-spotlight.html">33b-spotlight</a>
+                    <a href="Domain 3/MusicStore3/33c-books.html">33c-books</a>
+                    <a href="Domain 3/MusicStore3/33d-spotlight.html">33d-spotlight</a>
+                    <a href="Domain 3/MusicStore3/33e-spotlight.html"> spotlight  </a>
+                    <a href="Domain 3/MusicStore3/33e-links.html">33e-links</a>
+                    <a href="Domain 3/MusicStore3/books2.html"> books 2</a>
+                    <a href="Domain 3/MusicStore3/books3"> books 3</a>
+
+                    <a href="Domain 3/MusicStore3/34a-contactus.html">34a-contactus</a>
+                    <a href="Domain 3/MusicStore3/34d-contactus.html">34d-contactus</a>
+                    <a href="Domain 3/MusicStore3/34e-contactus.html">34e-contactus</a>
+                    <a href="Domain 3/MusicStore3/34f-contactus.html">34f-contactus</a>
+                    <a href="Domain 3/MusicStore3/34g-contactus.html">34g-contactus</a>
+                    <a href="Domain 3/MusicStore3/34h-contactus.html">34h-contactus</a>
+                    <a href="Domain 3/MusicStore3/34i-contactus.html">34i-contactus</a>
+                    <a href="Domain 3/MusicStore3/34j-contactus.html">34j-contactus</a>
+                    <a href="Domain 3/MusicStore3/34k-contactus.html">34k-contactus</a>
+                 
+                    
+                </div>
+            </div>  
+
+
+      <!-- Domain 4 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 4</button>
+                <div class="dropdown-content">
+                    <a href="Domain 4/Student/MusicStore4/41a-instruments.html"> Instruments</a>
+                    <a href="Domain 4/Student/MusicStore4/41a-instruments2.html"> Instruments 2</a>
+                    <a href="Domain 4/Student/MusicStore4/43a-media.html"> Media </a>
+                    <a href="Domain 4/Student/MusicStore4/43b-media.html"> Media 2</a>
+                    <a href="Domain 4/Student/MusicStore4/43e-media.html"> Media 3</a>
+                    <a href="Domain 4/Student/MusicStore4/vtt.html"> Vtt</a>
+                    <a href="Domain 4/Student/MusicStore4/41a-instruments.html">Instruments</a> 
+                    <a href="Domain 4/Student/MusicStore4/index.html">Link 1</a>
+                    <a href="Domain 4/Student/MusicStore4/about.html">Link 2</a>
+                </div>
+            </div>
+
+            <!-- Domain 5 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 5</button>
+                <div class="dropdown-content">
+                    <a href="Domain 5/MusicStore5/514a-index.html">Link 1</a>
+                    <a href="Domain 5/MusicStore5/54b-index.html">Link 2</a>
+          
+                </div>
+            </div>
+
+            <!-- Domain 6 -->
+            <div class="dropdown">
+                <button class="dropbtn">Domain 6</button>
+                <div class="dropdown-content">
+                  <a href ="Domain 6/23a-main.css"> Link </a>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Samantha Payero </h1>
+        <img src="avatar.png" alt="Samantha payero "
+        <p> -What I remember are basic HTML tags like <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code>, and <code>&lt;nav&gt;</code>.</p>
+    </main>
+
+</body>
 </html>
