@@ -21,6 +21,7 @@ figcaption {
 a:hover {
     text-decoration:underline;
     font-weight:bold;
+    font-family:'palatino linotype', 'Times New Roman', sans-serif;
 }
 .sale {
     font-weight:bold;

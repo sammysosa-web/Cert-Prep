@@ -9,10 +9,13 @@ p {
 a {
     text-decoration:none;
 }
+/*the background color extends acroos the page, so, we have commented it out for now 
+*/
+
 figcaption {
     color: navy;
     font-weight: bold;
-    background-color: aqua;
+   /* background-color: aqua;*/
 }
 a:hover {
     text-decoration:underline;
