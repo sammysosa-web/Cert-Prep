@@ -23,9 +23,22 @@ figcaption {
     font-style:italic;
     font-weight:bold;
 }
+.leftindent{
+    /*text-indent: 5em;*/
+    padding-left: 5em;
+}
 #sidenote {
     background-color: #DDDDDD;
     display:inline;
+    font-weight: bold;
+    float:right;
+    width: 200px;
+    height: 200px;
+    border-color: navy;
+    border-style: dashed;
+    border-width:1px ;
+
+
 }
 a {
     text-decoration: none;
@@ -38,7 +51,11 @@ a:visited {
     color:#808080;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: double;
     font-weight: bold;
     font-family: 'Palatino Linotype','Times New Roman', serif;
+}
+td.vbot {
+    vertical-align:bottom;
+    height:30px;
 }
