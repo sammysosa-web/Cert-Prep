@@ -10,6 +10,7 @@ p {
     so I have commented it out for now. */
 h1,h2,h3,h4,h5,h6 {
     font-family:Helvetica,Arial,sans-serif;
+    font-variant: small-caps ;
 }
 
 figcaption {
@@ -26,12 +27,24 @@ figcaption {
 #sidenote {
     background-color: #DDDDDD;
     display:inline;
+    font-weight:bold;
 }
 a {
     text-decoration: none;
+    color:darkgreen;
 }
+a:active {
+    color:#63f60a;
+}
+a:visited {
+    color:808080;
+}        
 a:hover {
     text-decoration: underline;
     font-weight: bold;
     font-family: 'Palatino Linotype','Times New Roman', serif;
+}
+td.vbot {
+    vertical-align:bottom;
+    height:30px;
 }
